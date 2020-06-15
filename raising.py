@@ -15,3 +15,4 @@ except ShortInputException as ex:
     print('ShortInputException: Длина введённой строки -- {0}; \ожидалось, как минимум, {1}'.format(ex.length, ex.atleast))
 else:
     print('Не было исключений.')
+    

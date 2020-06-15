@@ -12,3 +12,4 @@ except KeyboardInterrupt:
 finally:
     f.close()
     print('(Очистка: Закрытие файла)')
+    
